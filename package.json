@@ -1,1 +1,40 @@
-{     "devDependencies": {         "gulp-markdown": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-gulp-markdown",     "homepage": "https://github.com/npmtest/node-npmtest-gulp-markdown",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-gulp-markdown.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [gulp-markdown (v1.2.0)](https://github.com/sindresorhus/gulp-markdown) [![npm package](https://img.shields.io/npm/v/npmtest-gulp-markdown.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-markdown) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-markdown.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-markdown)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "gulp-markdown": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-gulp-markdown",
+    "keywords": [
+        "coverage",
+        "test",
+        "gulp-markdown"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_gulp_markdown.js",
+    "name": "npmtest-gulp-markdown",
+    "nameAlias": "npmtest_gulp_markdown",
+    "nameOriginal": "npmtest-gulp-markdown",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-gulp-markdown.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
