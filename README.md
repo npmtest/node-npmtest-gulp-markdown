@@ -1,7 +1,10 @@
-# test coverage for  [gulp-markdown (v1.2.0)](https://github.com/sindresorhus/gulp-markdown)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-markdown.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-markdown) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-markdown.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-markdown)
+# npmtest-gulp-markdown
+
+#### test coverage for  [gulp-markdown (v1.2.0)](https://github.com/sindresorhus/gulp-markdown)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-markdown.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-markdown) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-markdown.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-markdown)
+
 #### Markdown to HTML
 
-[![NPM](https://nodei.co/npm/gulp-markdown.png?downloads=true)](https://www.npmjs.com/package/gulp-markdown)
+[![NPM](https://nodei.co/npm/gulp-markdown.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-markdown)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-gulp-markdown/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-markdown/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-markdown/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-markdown/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-markdown/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-markdown/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-gulp-markdown/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-gulp-markdown/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-markdown/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-gulp-markdown/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-gulp-markdown%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-gulp-markdown/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-markdown/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-gulp-markdown/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-markdown/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-gulp-markdown%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-markdown/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-gulp-markdown/build/test-report.html](https://npmtest.github.io/node-npmtest-gulp-markdown/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-gulp-markdown/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-gulp-markdown/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-gulp-markdown/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-markdown/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-markdown/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-markdown/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-gulp-markdown/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +37,6 @@
 {
     "author": {
         "name": "Sindre Sorhus",
-        "email": "sindresorhus@gmail.com",
         "url": "http://sindresorhus.com"
     },
     "bugs": {
@@ -69,13 +77,11 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         }
     ],
     "name": "gulp-markdown",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/sindresorhus/gulp-markdown.git"
