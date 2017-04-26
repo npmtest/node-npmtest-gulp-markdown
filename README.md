@@ -1,6 +1,6 @@
 # npmtest-gulp-markdown
 
-#### test coverage for  [gulp-markdown (v1.2.0)](https://github.com/sindresorhus/gulp-markdown)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-markdown.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-markdown) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-markdown.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-markdown)
+#### basic test coverage for  [gulp-markdown (v1.2.0)](https://github.com/sindresorhus/gulp-markdown)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-markdown.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-markdown) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-markdown.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-markdown)
 
 #### Markdown to HTML
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-markdown/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-markdown/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-markdown/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-markdown/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-markdown/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-markdown/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-markdown/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-markdown/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-markdown/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-markdown/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-markdown/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-markdown/build/coverage.html/index.html)
 
@@ -89,7 +89,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "1.2.0"
+    "version": "1.2.0",
+    "bin": {}
 }
 ```
 
